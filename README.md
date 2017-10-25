@@ -17,18 +17,18 @@ UI.
 
 ![screenshot](screenshot.png)
 
-This branch is version 0.2 and is in development. 
+<b>This branch is version 0.2 and is in development.</b>
 
 Until version 1.0, there will be no
 compatibility guarantees: configuration and storage formats may change from
 version to version. There is an [upgrade procedure](guide/schema.md) but it is
 not for the faint of heart.
 
-Version 0.2 Goals:
+<b>Version 0.2 Goals:</b>
 
 Create an api that allows either a single jpeg or 1 frame mpeg4 to be requested for a camera (or optionally all cameras)
 
-Long term goals:
+<b>Long term goals:</b>
 
 Add features such as salient motion detection, live monitoring, bandwidth conservation. 
 
