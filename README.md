@@ -17,15 +17,22 @@ UI.
 
 ![screenshot](screenshot.png)
 
-This is version 0.1, the initial release. Until version 1.0, there will be no
+This branch is version 0.2 and is in development. 
+
+Until version 1.0, there will be no
 compatibility guarantees: configuration and storage formats may change from
 version to version. There is an [upgrade procedure](guide/schema.md) but it is
 not for the faint of heart.
 
-I hope to add features such as salient motion detection. It's way too early to
-make promises, but it seems possible to build a full-featured
-hobbyist-oriented multi-camera NVR that requires nothing but a cheap machine
-with a big hard drive. I welcome help; see [Getting help and getting
+Version 0.2 Goals:
+
+Create an api that allows either a single jpeg or 1 frame mpeg4 to be requested for a camera (or optionally all cameras)
+
+Long term goals:
+
+Add features such as salient motion detection, live monitoring, bandwidth conservation. 
+
+We welcome help; see [Getting help and getting
 involved](#help) below. There are many exciting techniques we could use to
 make this possible:
 
@@ -66,7 +73,7 @@ mailing list with questions, or just to say you love/hate the software and
 why. You can also file bugs and feature requests on the
 [github issue tracker](https://github.com/scottlamb/moonfire-nvr/issues).
 
-I'd welcome help with testing, development (in Rust, JavaScript, and HTML),
+We welcome help with testing, development (in Rust, JavaScript, and HTML),
 user interface/graphic design, and documentation. Please email the mailing
 list if interested. Pull requests are welcome, but I encourage you to discuss
 large changes on the mailing list or in a github issue first to save effort.
